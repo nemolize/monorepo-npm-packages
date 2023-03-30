@@ -1,0 +1,21 @@
+{
+  "name": "@lerna-packages/foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemolize/lerna-packages.git",
+    "directory": "packages/foo"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nemolize/lerna-packages/issues"
+  },
+  "homepage": "https://github.com/nemolize/lerna-packages#readme"
+}
