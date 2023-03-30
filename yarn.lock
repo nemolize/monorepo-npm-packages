@@ -68,6 +68,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@lerna-packages/baz@workspace:packages/baz":
+  version: 0.0.0-use.local
+  resolution: "@lerna-packages/baz@workspace:packages/baz"
+  languageName: unknown
+  linkType: soft
+
 "@lerna-packages/foo@workspace:packages/foo":
   version: 0.0.0-use.local
   resolution: "@lerna-packages/foo@workspace:packages/foo"
