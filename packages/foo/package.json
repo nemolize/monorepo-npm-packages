@@ -1,11 +1,12 @@
 {
   "name": "@lerna-packages/foo",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "echo linting foo"
+    "lint": "echo linting foo",
+    "build": "echo build foo"
   },
   "repository": {
     "type": "git",
