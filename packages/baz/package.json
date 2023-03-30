@@ -18,7 +18,8 @@
     "url": "git+https://github.com/nemolize/monorepo-npm-packages.git"
   },
   "scripts": {
-    "test": "node ./__tests__/baz.test.js"
+    "test": "node ./__tests__/baz.test.js",
+    "lint": "echo linting baz"
   },
   "bugs": {
     "url": "https://github.com/nemolize/monorepo-npm-packages/issues"
