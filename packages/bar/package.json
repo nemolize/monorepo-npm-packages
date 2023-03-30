@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "echo linting bar"
+    "lint": "echo linting bar",
+    "build": "echo build bar"
   },
   "repository": {
     "type": "git",
