@@ -3,5 +3,5 @@
 module.exports = baz;
 
 function baz() {
-  return 'Hello from baz';
+  return 'Hello from baz!';
 }
