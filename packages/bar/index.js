@@ -1,1 +1,1 @@
-export const bar = () => console.log('Hello bar!')
+export const bar = () => console.log('Hello bar')
