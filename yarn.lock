@@ -62,6 +62,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lerna-packages/bar@workspace:packages/bar":
+  version: 0.0.0-use.local
+  resolution: "@lerna-packages/bar@workspace:packages/bar"
+  languageName: unknown
+  linkType: soft
+
 "@lerna-packages/foo@workspace:packages/foo":
   version: 0.0.0-use.local
   resolution: "@lerna-packages/foo@workspace:packages/foo"

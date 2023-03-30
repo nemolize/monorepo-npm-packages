@@ -1,0 +1,20 @@
+{
+  "name": "@lerna-packages/bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemolize/monorepo-npm-packages.git",
+    "directory": "packages/bar"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nemolize/monorepo-npm-packages/issues"
+  },
+  "homepage": "https://github.com/nemolize/monorepo-npm-packages#readme"
+}
