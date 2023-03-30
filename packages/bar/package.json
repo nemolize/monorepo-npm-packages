@@ -1,12 +1,12 @@
 {
   "name": "@lerna-packages/bar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "echo linting bar",
-    "build": "echo build bar"
+    "build": "echo build bar && sleep 2 && echo finished!"
   },
   "repository": {
     "type": "git",
