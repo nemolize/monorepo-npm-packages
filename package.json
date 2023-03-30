@@ -5,5 +5,11 @@
   "repository": "git@github.com:nemolize/lerna-packages.git",
   "author": "Masaru Nemoto <nemolize@users.noreply.github.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  }
 }
