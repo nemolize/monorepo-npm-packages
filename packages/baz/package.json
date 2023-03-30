@@ -19,7 +19,8 @@
   },
   "scripts": {
     "test": "node ./__tests__/baz.test.js",
-    "lint": "echo linting baz!"
+    "lint": "echo linting baz!",
+    "build": "echo build baz"
   },
   "bugs": {
     "url": "https://github.com/nemolize/monorepo-npm-packages/issues"
