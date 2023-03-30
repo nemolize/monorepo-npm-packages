@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nemolize/lerna-packages.git",
+    "url": "git+https://github.com/nemolize/monorepo-npm-packages.git",
     "directory": "packages/foo"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nemolize/lerna-packages/issues"
+    "url": "https://github.com/nemolize/monorepo-npm-packages/issues"
   },
-  "homepage": "https://github.com/nemolize/lerna-packages#readme"
+  "homepage": "https://github.com/nemolize/monorepo-npm-packages#readme"
 }

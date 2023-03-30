@@ -2,7 +2,7 @@
   "name": "lerna-packages",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:nemolize/lerna-packages.git",
+  "repository": "git@github.com:nemolize/monorepo-npm-packages.git",
   "author": "Masaru Nemoto <nemolize@users.noreply.github.com>",
   "license": "MIT",
   "private": true,
