@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-npm-packages/bar",
+  "name": "@nemolize/bar",
   "version": "0.1.2",
   "description": "",
   "main": "index.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/nemolize/monorepo-npm-packages/issues"
   },
-  "homepage": "https://github.com/nemolize/monorepo-npm-packages#readme"
+  "homepage": "https://github.com/nemolize/monorepo-npm-packages#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
