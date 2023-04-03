@@ -9,7 +9,6 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   changesets:
-    name: Release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -26,6 +25,9 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+
+      - run: yarn
+        if: steps.node_modules.outputs.cache-hit != 'true'
 
       - uses: changesets/action@v1
         env:
