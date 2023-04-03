@@ -307,24 +307,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lerna-packages/bar@workspace:packages/bar":
-  version: 0.0.0-use.local
-  resolution: "@lerna-packages/bar@workspace:packages/bar"
-  languageName: unknown
-  linkType: soft
-
-"@lerna-packages/baz@workspace:packages/baz":
-  version: 0.0.0-use.local
-  resolution: "@lerna-packages/baz@workspace:packages/baz"
-  languageName: unknown
-  linkType: soft
-
-"@lerna-packages/foo@workspace:packages/foo":
-  version: 0.0.0-use.local
-  resolution: "@lerna-packages/foo@workspace:packages/foo"
-  languageName: unknown
-  linkType: soft
-
 "@lerna/child-process@npm:6.6.1":
   version: 6.6.1
   resolution: "@lerna/child-process@npm:6.6.1"
@@ -452,6 +434,24 @@ __metadata:
   checksum: f5a756e5a659e0e1c33f48852d56826d170d5b10a3cdea89ce4fcaa77678d8799aa4004b30e1985c87b73dbc390b95bb6411b78336dd1e0db87c08c74b5c0e74
   languageName: node
   linkType: hard
+
+"@monorepo-npm-packages/bar@workspace:packages/bar":
+  version: 0.0.0-use.local
+  resolution: "@monorepo-npm-packages/bar@workspace:packages/bar"
+  languageName: unknown
+  linkType: soft
+
+"@monorepo-npm-packages/baz@workspace:packages/baz":
+  version: 0.0.0-use.local
+  resolution: "@monorepo-npm-packages/baz@workspace:packages/baz"
+  languageName: unknown
+  linkType: soft
+
+"@monorepo-npm-packages/foo@workspace:packages/foo":
+  version: 0.0.0-use.local
+  resolution: "@monorepo-npm-packages/foo@workspace:packages/foo"
+  languageName: unknown
+  linkType: soft
 
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
@@ -3871,16 +3871,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lerna-packages@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "lerna-packages@workspace:."
-  dependencies:
-    "@changesets/cli": ^2.26.1
-    lerna: ^6.6.1
-    turbo: ^1.8.8
-  languageName: unknown
-  linkType: soft
-
 "lerna@npm:^6.6.1":
   version: 6.6.1
   resolution: "lerna@npm:6.6.1"
@@ -4497,6 +4487,16 @@ __metadata:
   checksum: 8296610c608bc97b03c2cf889c6cdf4517e32fa2d836440096374c2209f6b7b3e256c209493a0b32584b9cb32d528e99d0dd19dcd9a14d2d915a312d391cc7e9
   languageName: node
   linkType: hard
+
+"monorepo-npm-packages@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "monorepo-npm-packages@workspace:."
+  dependencies:
+    "@changesets/cli": ^2.26.1
+    lerna: ^6.6.1
+    turbo: ^1.8.8
+  languageName: unknown
+  linkType: soft
 
 "ms@npm:2.1.2, ms@npm:^2.0.0":
   version: 2.1.2
