@@ -32,7 +32,7 @@ jobs:
       - name: Creating .npmrc
         run: |
           cat << EOF > "$HOME/.npmrc"
-            //registry.npmjs.org/:_authToken=$NPM_TOKEN
+            //npm.pkg.github.com/:_authToken=$NPM_TOKEN
           EOF
           
           cat "$HOME/.npmrc" | sha256sum
