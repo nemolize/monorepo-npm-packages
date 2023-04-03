@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-npm-packages/bar",
+  "name": "@nemolize/bar",
   "version": "0.1.2",
   "description": "",
   "main": "index.js",

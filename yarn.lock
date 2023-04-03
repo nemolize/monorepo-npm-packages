@@ -435,21 +435,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepo-npm-packages/bar@workspace:packages/bar":
+"@nemolize/bar@workspace:packages/bar":
   version: 0.0.0-use.local
-  resolution: "@monorepo-npm-packages/bar@workspace:packages/bar"
+  resolution: "@nemolize/bar@workspace:packages/bar"
   languageName: unknown
   linkType: soft
 
-"@monorepo-npm-packages/baz@workspace:packages/baz":
+"@nemolize/baz@workspace:packages/baz":
   version: 0.0.0-use.local
-  resolution: "@monorepo-npm-packages/baz@workspace:packages/baz"
+  resolution: "@nemolize/baz@workspace:packages/baz"
   languageName: unknown
   linkType: soft
 
-"@monorepo-npm-packages/foo@workspace:packages/foo":
+"@nemolize/foo@workspace:packages/foo":
   version: 0.0.0-use.local
-  resolution: "@monorepo-npm-packages/foo@workspace:packages/foo"
+  resolution: "@nemolize/foo@workspace:packages/foo"
   languageName: unknown
   linkType: soft
 
