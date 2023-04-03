@@ -9,3 +9,4 @@ const baz = require('baz');
 
 // TODO: DEMONSTRATE API
 ```
+update
