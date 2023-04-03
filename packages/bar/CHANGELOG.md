@@ -1,5 +1,11 @@
 # @lerna-packages/bar
 
+## 0.1.2
+
+### Patch Changes
+
+- c3e344d: chore: change license
+
 ## 0.1.1
 
 ### Patch Changes
