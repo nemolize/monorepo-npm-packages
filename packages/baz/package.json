@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-npm-packages/baz",
+  "name": "@nemolize/baz",
   "version": "0.1.1",
   "description": "> TODO: description",
   "author": "Masaru Nemoto <nemolize@users.noreply.github.com>",
