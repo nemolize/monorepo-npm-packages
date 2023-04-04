@@ -1,5 +1,11 @@
 # @lerna-packages/baz
 
+## 0.2.0
+
+### Minor Changes
+
+- [#40](https://github.com/nemolize/monorepo-npm-packages/pull/40) [`281f4b5`](https://github.com/nemolize/monorepo-npm-packages/commit/281f4b533ce418293a42e558373cda0c7749a07b) Thanks [@nemolize](https://github.com/nemolize)! - chore: change license
+
 ## 0.1.5
 
 ### Patch Changes
