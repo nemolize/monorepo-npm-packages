@@ -37,7 +37,7 @@ jobs:
           
           cat "$HOME/.npmrc" | sha256sum
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: changesets/action@v1
         with:
