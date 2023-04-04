@@ -14,7 +14,7 @@
     "directory": "packages/foo"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nemolize/monorepo-npm-packages/issues"
   },
