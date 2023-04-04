@@ -13,7 +13,7 @@
     "url": "git+https://github.com/nemolize/monorepo-npm-packages.git",
     "directory": "packages/foo"
   },
-  "author": "",
+  "author": "Masaru Nemoto <nemolize@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nemolize/monorepo-npm-packages/issues"
