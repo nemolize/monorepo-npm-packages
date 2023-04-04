@@ -1,5 +1,11 @@
 # @lerna-packages/baz
 
+## 0.1.4
+
+### Patch Changes
+
+- 1d9121c: chore: update README
+
 ## 0.1.3
 
 ### Patch Changes
